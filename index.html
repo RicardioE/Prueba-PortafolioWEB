@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio_WebD</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <button id="darkModeToggle" onclick="toggleDarkMode()">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+    </button>
+    <div class="container">
+        <div class="sidebar">
+            <header class="header">
+                <a class="logo" href='#informacion'>
+                    <svg class="logo-icon" height="80" width="80" xmlns="http://www.w3.org/2000/svg">
+                        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#000000" font-size="24">DC</text>
+                    </svg>
+                </a>
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li class="menu-item"><a class="menu-link" href='#informacion'><i class="fas fa-home"></i></a></li>
+                        <li class="menu-item"><a class="menu-link" href='#informacion'><i class="fas fa-user"></i></a></li>
+                        <li class="menu-item"><a class="menu-link" href='#informacion'><i class="fas fa-code"></i></a></li>
+                        <li class="menu-item"><a class="menu-link" href='#proyectos'><i class="fas fa-laptop-code"></i></a></li>
+                        <li class="menu-item"><a class="menu-link" href='#contact'><i class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </header>
+        </div>
+        <div class="main-content">
+            <div class="nombre">
+                <h1 id="nombreCompleto">Daniel Castelblanco</h1>
+                <p id="rol">Web/App Developer <i class="fas fa-home"></i></p>
+            </div>
+            <div id="informacion" class="info">
+                <h2><i class="fas fa-user"></i> Sobre mí </h2>
+                <div class="contenido-sobre-mi">
+                    <p>Estudiante de Ingeniería de Software, me gusta la tecnología y el diseño,
+                        en búsqueda de aprendizaje y desarrollo constante, además de contar con una
+                        gran curiosidad por aprender de los temas de mi interés y de los demás.</p>
+                </div>
+                <div class="ContenedorImagen">
+                    <img src="img/desarrollador.png" class="desarrollador" alt="Imagen de Daniel Ricardo Castelblanco Esqueche - Desarrollador">
+                </div>
+                <div class="habilidades">
+                    <h3>Habilidades</h3>
+                    <p>
+                        Siempre busco avanzar de manera profesional y personal,
+                        soy bastante curioso y me gusta aprender de los demás, me gusta trabajar
+                        en equipo y la comunicación, pues para hacer cosas grandes necesitamos
+                        grupos grandes.
+                    </p>
+                    <ul class="skills-list">
+                        <li>Comunicación efectiva</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Empatía</li>
+                    </ul>
+                    <div class="skills-tech">
+                        <p><i class="fab fa-js"></i> Javascript</p>
+                        <p><i class="fab fa-html5"></i> HTML</p>
+                        <p><i class="fab fa-css3-alt"></i> CSS</p>
+                    </div>
+                </div>
+            </div>
+
+            <section id="proyectos" class="portfolio-section">
+                <h2>Proyectos</h2>
+                <div class="proyecto">
+                    <h3>Proyecto 1</h3>
+                    <p>Aun trabajando en el primer proyecto</p>
+                </div>
+            </section>
+
+            <section id="contact" class="portfolio-section">
+                <h2>Contacto</h2>
+                <p><i class="fas fa-envelope"></i> dcastelblanco111@gmail.com</p>
+                <p><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/daniel.castelblanco.370/" target="_blank">daniel.castelblanco.370</a></p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/daniel-castelblanco-0aa462284//" target="_blank">Daniel Castelblanco</a></p>
+            </section>
+
+        </div>
+    </div>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
